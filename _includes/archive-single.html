@@ -58,17 +58,17 @@
     {% endif %}
     
 
-    {% if post.citation and page.paperurl and page.codeurl and page.projecturl %}
+    {% if page.paperurl and page.codeurl and page.projecturl %}
       <p><a href=" {{ post.paperurl }} ">Paper</a> | <a href="{{ post.codeurl }}">Code</a> | <a href="{{ post.projecturl }}">Project Page</a></p>
-    {% elsif post.citation and page.paperurl and page.codeurl %}
+    {% elsif page.paperurl and page.codeurl %}
       <p><a href=" {{ post.paperurl }} ">Paper</a> | <a href="{{ post.codeurl }}">Code</a></p>
-    {% elsif post.citation and page.paperurl and page.projecturl %}
+    {% elsif page.paperurl and page.projecturl %}
       <p><a href=" {{ post.paperurl }} ">Paper</a> | <a href="{{ post.projecturl }}">Project Page</a></p>
-    {% elsif post.citation and page.paperurl %}
+    {% elsif page.paperurl %}
       <p><a href=" {{ post.paperurl }} ">Paper</a></p>
-    {% elsif post.citation and page.codeurl %}
+    {% elsif page.codeurl %}
       <p><a href=" {{ post.codeurl }} ">Code</a></p>
-    {% elsif post.citation and page.projecturl %}
+    {% elsif page.projecturl %}
       <p><a href="{{ post.projecturl }}">Project Page</a></p>
     {% endif %}
 

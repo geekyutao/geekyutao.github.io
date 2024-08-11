@@ -48,17 +48,17 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if post.citation and page.paperurl and page.codeurl and page.projecturl %}
+        {% if page.paperurl and page.codeurl and page.projecturl %}
           <p style="font-size: smaller"><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.codeurl }}">Code</a> | <a href="{{ page.projecturl }}">Project Page</a></p>
-        {% elsif post.citation and page.paperurl and page.codeurl %}
+        {% elsif page.paperurl and page.codeurl %}
           <p style="font-size: smaller"><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.codeurl }}">Code</a></p>
-        {% elsif post.citation and page.paperurl and page.projecturl %}
+        {% elsif page.paperurl and page.projecturl %}
           <p style="font-size: smaller"><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.projecturl }}">Project Page</a></p>
-        {% elsif post.citation and page.paperurl %}
+        {% elsif page.paperurl %}
           <p style="font-size: smaller"><a href="{{ page.paperurl }}">Paper</a></p>
-        {% elsif post.citation and page.codeurl %}
+        {% elsif page.codeurl %}
           <p style="font-size: smaller"><a href="{{ page.codeurl }}">Code</a></p>
-        {% elsif post.citation and page.projecturl %}
+        {% elsif page.projecturl %}
           <p style="font-size: smaller"><a href="{{ page.projecturl }}">Project Page</a></p>
         {% endif %}
 
