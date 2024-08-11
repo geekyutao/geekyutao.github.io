@@ -22,7 +22,7 @@ repository               : "geekyutao/geekyutao.github.io"
 author:
   # Biographic information
   # avatar           : "2024cq.png"
-  avatar           : "2023banff.png"
+  avatar           : "2023banff.jpg"
   name             : "Tao Yu"
   pronouns         : # example: "she/her"  
   bio              : "Senior Researcher at Tencent AI Lab"
@@ -44,7 +44,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/geekyutao"
+  github           : "geekyutao"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
