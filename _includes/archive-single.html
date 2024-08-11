@@ -57,6 +57,20 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
+    {% if post.citation and post.paperurl and post.slidesurl %}
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
+    {% elsif post.citation and post.paperurl %}
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
+    {% elsif post.citation and post.slidesurl %}
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
+    {% elsif post.citation %}
+      <p>Recommended citation: {{ post.citation }}</p>
+    {% elsif post.paperurl %}
+      <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
+    {% elsif post.slidesurl %}
+      <p>Download <a href="{{ post.slidesurl }}">Download Slides</a></p></p>
+    {% endif %}
+
     {% if page.paperurl and page.codeurl and page.projecturl %}
       <p><a href=" {{ post.paperurl }} ">Paper</a> | <a href="{{ post.codeurl }}">Code</a> | <a href="{{ post.projecturl }}">Project Page</a></p>
     {% elsif page.paperurl and page.codeurl %}
@@ -66,7 +80,7 @@
     {% elsif page.paperurl %}
       <p><a href=" {{ post.paperurl }} ">Paper</a></p>
     {% elsif page.codeurl %}
-      <p>Code available at: <a href="{{ post.codeurl }}">{{ post.codeurl }}</a></p>
+      <p><a href=" {{ post.codeurl }} ">Code</a></p>
     {% elsif page.projecturl %}
       <p><a href="{{ post.projecturl }}">Project Page</a></p>
     {% endif %}
