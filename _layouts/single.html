@@ -62,7 +62,7 @@ layout: default
         {% elsif page.paperurl and page.slidesurl and page.codeurl %}
           <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.codeurl }}">Download Code</a></p>
         {% elsif page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.paper.html }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
+          <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.paperurl and page.codeurl %}
           <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.codeurl }}">Download Code</a></p>
         {% elsif page.slidesurl and page.codeurl %}
