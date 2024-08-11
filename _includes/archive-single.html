@@ -66,5 +66,11 @@
       <p>Download <a href="{{ post.slidesurl }}">Download Slides</a></p></p>
     {% endif %}
 
+    {% if post.citation and post.paperurl and post.codeurl %}
+      <p>Code available at: <a href="{{ post.codeurl }}">{{ post.codeurl }}</a></p>
+    {% elsif post.codeurl %}
+      <p>Code available at: <a href="{{ post.codeurl }}">{{ post.codeurl }}</a></p>
+    {% endif %}
+
   </article>
 </div>
