@@ -7,5 +7,5 @@ permalink: /publication/2024-07-21-rethinking-domain-adaptation-and-generalizati
 date: 2024-07-21
 venue: 'ICIP'
 paperurl: 'https://arxiv.org/pdf/2407.15173'
-# citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---

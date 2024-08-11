@@ -71,17 +71,17 @@
       <p>Download <a href="{{ post.slidesurl }}">Download Slides</a></p></p>
     {% endif %}
 
-    {% if page.paperurl and page.codeurl and page.projecturl %}
+    {% if post.citation and page.paperurl and page.codeurl and page.projecturl %}
       <p><a href=" {{ post.paperurl }} ">Paper</a> | <a href="{{ post.codeurl }}">Code</a> | <a href="{{ post.projecturl }}">Project Page</a></p>
-    {% elsif page.paperurl and page.codeurl %}
+    {% elsif post.citation and page.paperurl and page.codeurl %}
       <p><a href=" {{ post.paperurl }} ">Paper</a> | <a href="{{ post.codeurl }}">Code</a></p>
-    {% elsif page.paperurl and page.projecturl %}
+    {% elsif post.citation and page.paperurl and page.projecturl %}
       <p><a href=" {{ post.paperurl }} ">Paper</a> | <a href="{{ post.projecturl }}">Project Page</a></p>
-    {% elsif page.paperurl %}
+    {% elsif post.citation and page.paperurl %}
       <p><a href=" {{ post.paperurl }} ">Paper</a></p>
-    {% elsif page.codeurl %}
+    {% elsif post.citation and page.codeurl %}
       <p><a href=" {{ post.codeurl }} ">Code</a></p>
-    {% elsif page.projecturl %}
+    {% elsif post.citation and page.projecturl %}
       <p><a href="{{ post.projecturl }}">Project Page</a></p>
     {% endif %}
 
