@@ -66,8 +66,8 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  # twitter          : # Username for X / Twitter
-  X                : https://x.com/matt_tao_yu
+  twitter          : matt_tao_yu
+  # X                : https://x.com/matt_tao_yu
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
