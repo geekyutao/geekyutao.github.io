@@ -59,6 +59,12 @@ layout: default
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% endif %}
 
+        {% if page.citation and page.paperurl and page.slidesurl and page.codeurl %}
+          <p style="font-size: smaller"><a href="{{ page.codeurl }}">Download Code</a></p>
+        {% elsif page.codeurl %}
+          <p style="font-size: smaller"><a href="{{ page.codeurl }}">Download Code</a></p>
+        {% endif %}
+
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
