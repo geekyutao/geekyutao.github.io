@@ -1,7 +1,7 @@
 ---
 title: "Rethinking Domain Adaptation and Generalization in the Era of CLIP"
 collection: publications
-authors: '**Tao**, Geeky, Chen, and Zhang'
+authors: '<b>Tao</b>, Zhang, Geeky, Chen, and Zhang'
 permalink: /publication/2024-07-21-rethinking-domain-adaptation-and-generalization-in-the-era-of-clip
 excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-07-21
