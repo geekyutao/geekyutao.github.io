@@ -56,19 +56,19 @@
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
-
+    
     {% if page.paperurl and page.codeurl and page.projecturl %}
-      <p style="font-size: smaller"><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.codeurl }}">Code</a> | <a href="{{ page.projecturl }}">Project Page</a></p>
+      <p><a href=" {{ post.paperurl }} ">Paper</a> | <a href="{{ post.codeurl }}">Code</a> | <a href="{{ post.projecturl }}">Project Page</a></p>
     {% elsif page.paperurl and page.codeurl %}
-      <p style="font-size: smaller"><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.codeurl }}">Code</a></p>
+      <p><a href=" {{ post.paperurl }} ">Paper</a> | <a href="{{ post.codeurl }}">Code</a></p>
     {% elsif page.paperurl and page.projecturl %}
-      <p style="font-size: smaller"><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.projecturl }}">Project Page</a></p>
+      <p><a href=" {{ post.paperurl }} ">Paper</a> | <a href="{{ post.projecturl }}">Project Page</a></p>
     {% elsif page.paperurl %}
-      <p style="font-size: smaller"><a href="{{ page.paperurl }}">Paper</a></p>
+      <p><a href=" {{ post.paperurl }} ">Paper</a></p>
     {% elsif page.codeurl %}
-      <p style="font-size: smaller"><a href="{{ page.codeurl }}">Code</a></p>
+      <p>Code available at: <a href="{{ post.codeurl }}">{{ post.codeurl }}</a></p>
     {% elsif page.projecturl %}
-      <p style="font-size: smaller"><a href="{{ page.projecturl }}">Project Page</a></p>
+      <p><a href="{{ post.projecturl }}">Project Page</a></p>
     {% endif %}
 
   </article>
