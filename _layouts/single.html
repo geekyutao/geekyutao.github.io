@@ -49,7 +49,6 @@ layout: default
 
         {% if page.citation and page.paperurl and page.slidesurl and page.codeurl and page.projecturl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.codeurl }}">Code</a> | <a href="{{ page.projecturl }}">Project</a></p>
-          // <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.slidesurl }}">Slides</a></p>
         {% elsif page.citation and page.paperurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a></p>
         {% elsif page.citation and page.slidesurl %}
