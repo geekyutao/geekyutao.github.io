@@ -33,6 +33,21 @@ layout: default
         {% if page.modified %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
+
+        // add authors
+        {% if page.collection == 'publications' %}
+          {% assign author_list = page.authors | split: ',' %}
+          {% for author in author_list %}
+            {% assign author_name = author | split: '|' %}
+            {% assign author_url = author_name[1] %}
+            {% assign author_name = author_name[0] %}
+            {% if author_url %}
+              <p class="page__meta"><strong><i class="fa fa-fw fa-user" aria-hidden="true"></i> {{ author_name }}</strong> <a href="{{ author_url }}">{{ author_url }}</a></p>
+            {% else %}
+              <p class="page__meta"><strong><i class="fa fa-fw fa-user" aria-hidden="true"></i> {{ author_name }}</strong></p>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
