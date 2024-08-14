@@ -1,7 +1,7 @@
 ---
 title: "Local Patch Autoaugment with Multi-Agent Collaboration"
 collection: publications
-authors: 'Shiqi Lin, <b>Tao Yu*</b>, Ruoyu Feng, Xin Li, Xiaoyuan Yu, Lei Xiao, Zhibo Chen'
+authors: 'Shiqi Lin*, <b>Tao Yu*</b>, Ruoyu Feng, Xin Li, Xiaoyuan Yu, Lei Xiao, Zhibo Chen'
 permalink: /publication/2023-05-02-local-patch-autoaugment-with-multi-agent-collaboration
 # excerpt: 'This paper is about fixing template issue #693.'
 date: 2023-05-02
