@@ -3,7 +3,7 @@ title: "Interleaved Zooming Network for Image Inpainting"
 collection: publications
 authors: 'Sen Liu, Zongyu Guo, Jiale Chen, <b>Tao Yu</b>, Zhibo Chen'
 permalink: /publication/2019-07-08-interleaved
-# excerpt: 'The Thirty-fifth Annual Conference on Neural Information Processing Systems (<b>NeurIPS</b>)'
+excerpt: 'Champion Solution of the ICME 2019 Grand Challenge on Learning-Based Image Inpainting'
 date: 2019-07-08
 venue: 'IEEE International Conference on Multimedia & Expo Workshops (<b>ICMEW</b>)'
 # slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
