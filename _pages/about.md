@@ -103,11 +103,7 @@ Service
 ------
 Reviewer: NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, AAAI, TPAMI, IJCV, TMM, etc.
 
-<!-- Pageviews Counter -->
-<div id="pageviews" style="text-align: center; margin-top: 20px;">
-  Total Pageviews: <span id="view-count">0</span>
-</div>
-
+------
 <script>
   // Function to update pageviews count
   function updatePageviews() {
@@ -133,4 +129,9 @@ Reviewer: NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, AAAI, TPAMI, IJCV, TMM, etc.
 <!-- ClustrMaps Embed Code -->
 <div style="text-align: center; margin-top: 20px;">
   <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=QQILTdW3qmmECKaOlJfnIkG7sCpE_xNVeL1pu10oBUw&cl=ffffff&w=a"></script>
+</div>
+
+<!-- Pageviews Counter -->
+<div id="pageviews" style="text-align: center; margin-top: 20px;">
+  Total Pageviews: <span id="view-count">0</span>
 </div>
