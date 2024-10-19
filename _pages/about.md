@@ -104,34 +104,9 @@ Service
 Reviewer: NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, AAAI, TPAMI, IJCV, TMM, etc.
 
 ------
-<script>
-  // Function to update pageviews count
-  function updatePageviews() {
-    // Get the current count from localStorage
-    let pageviews = localStorage.getItem('pageviews');
-    if (pageviews === null) {
-      pageviews = 0;
-    } else {
-      pageviews = parseInt(pageviews);
-    }
-    // Increment the count
-    pageviews += 1;
-    // Update the count in localStorage
-    localStorage.setItem('pageviews', pageviews);
-    // Update the count in the HTML
-    document.getElementById('view-count').innerText = pageviews;
-  }
-
-  // Call the function to update pageviews on page load
-  updatePageviews();
-</script>
-
 <!-- ClustrMaps Embed Code -->
 <div style="text-align: center; margin-top: 20px;">
-  <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=QQILTdW3qmmECKaOlJfnIkG7sCpE_xNVeL1pu10oBUw&cl=ffffff&w=a"></script>
-</div>
-
-<!-- Pageviews Counter -->
-<div id="pageviews" style="text-align: center; margin-top: 20px;">
-  Total Pageviews: <span id="view-count">0</span>
+  <div id="clustrmaps-container" style="display: inline-block; width: 300px; height: 200px; overflow: hidden;">
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=QQILTdW3qmmECKaOlJfnIkG7sCpE_xNVeL1pu10oBUw&cl=ffffff&w=a"></script>
+  </div>
 </div>
