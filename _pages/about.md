@@ -110,25 +110,3 @@ Reviewer: NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, AAAI, TPAMI, IJCV, TMM, etc.
     <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=QQILTdW3qmmECKaOlJfnIkG7sCpE_xNVeL1pu10oBUw&cl=ffffff&w=a"></script>
   </div>
 </div>
-
-<div id="visit-count" style="text-align: center; margin-top: 20px;"></div>
-
-<script>
-  let visitCount = localStorage.getItem('visitCount') || 0;
-  visitCount++;
-  localStorage.setItem('visitCount', visitCount);
-  document.getElementById('visit-count').innerText = `总访问次数: ${visitCount}`;
-</script>
-
-<div style="text-align: center; margin-top: 20px;">
-  <div id="clustrmaps-container-2" style="display: inline-block; width: 300px; height: 200px; overflow: hidden;">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-17KY46JHEN"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-17KY46JHEN');
-    </script>
-  </div>
-</div>
