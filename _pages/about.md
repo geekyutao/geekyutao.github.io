@@ -104,7 +104,7 @@ Service
 Reviewer: NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, AAAI, TPAMI, IJCV, TMM, etc.
 
 ------
-<!-- ClustrMaps Embed Code -->
+<!-- ClustrMaps Embed Code
 <div style="text-align: center; margin-top: 20px;">
   <div id="clustrmaps-container" style="display: inline-block; width: 300px; height: 200px; overflow: hidden;">
     <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=QQILTdW3qmmECKaOlJfnIkG7sCpE_xNVeL1pu10oBUw&cl=ffffff&w=a"></script>
@@ -117,7 +117,7 @@ Reviewer: NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, AAAI, TPAMI, IJCV, TMM, etc.
   localStorage.setItem('visitCount', visitCount);
   document.getElementById('visit-count').innerText = `总访问次数: ${visitCount}`;
 </script>
-<div id="visit-count" style="text-align: center; margin-top: 20px;"></div>
+<div id="visit-count" style="text-align: center; margin-top: 20px;"></div> -->
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-17KY46JHEN"></script>
