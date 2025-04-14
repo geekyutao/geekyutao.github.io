@@ -11,7 +11,7 @@ I am a Researcher at [LimX Dynamics](https://www.limxdynamics.com/en), which I j
 
 Prior to my current role, I served as a Senior Researcher at Tencent, focusing on reinforcement learning and game AI, after earning my Ph.D. in 2023 from the University of Science and Technology of China (USTC) under the supervision of Professors [Zhibo Chen](https://faculty.ustc.edu.cn/chenzhibo/) and [Weiping Li](https://ieeexplore.ieee.org/author/37349978300). I also worked as a Research Student at the National University of Singapore (NUS) from 2022 to 2023, collaborating with Prof. [Xinchao Wang](https://sites.google.com/site/sitexinchaowang/). Earlier, I was a Research Intern at Microsoft Research Asia (MSRA) from 2020 to 2022, mentored by Dr. [Cuiling Lan](https://www.microsoft.com/en-us/research/people/culan/) and Professor [Wenjun Zeng](https://www.eitech.edu.cn/?p=leader-Wenjun%20Zeng&tid=19&lang=en).
 
-I’m passionate about tackling exciting challenges through innovative projects. One of my recent works, [Inpaint Anything](https://github.com/geekyutao/inpaint-anything), has garnered over 6.5k stars on GitHub.
+I’m passionate about tackling exciting challenges through innovative projects. One of my recent works, [Inpaint Anything](https://github.com/geekyutao/inpaint-anything), has garnered over 7k stars on GitHub.
 
 If you’re interested in my research, collaboration opportunities, or internships in humanoid robotics, please don’t hesitate to reach out via email at [yutao666@mail.ustc.edu.cn](mailto:yutao666@mail.ustc.edu.cn).
 
