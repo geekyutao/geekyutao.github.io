@@ -7,11 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a Senior Researcher at Tencent, where I focus on reinforcement learning and game AI. My research interests lie in reinforcement learning, multimodal models, AIGC, etc. My final goal of research is to develop intelligent agents that can perceive, think and behave like humans.
+I am a Researcher at [LimX Dynamics](https://www.limxdynamics.com/en), which I joined in March 2025, specializing in reinforcement learning and humanoid control. My research interests span reinforcement learning, multimodal models, and AI-generated content (AIGC). My ultimate goal is to create intelligent agents capable of perceiving, reasoning, and acting like humans.
 
-Before my current role, I earned my Ph.D. in 2023 from the University of Science and Technology of China (USTC), under the guidance of Professors [Zhibo Chen](https://faculty.ustc.edu.cn/chenzhibo/) and [Weiping Li](https://ieeexplore.ieee.org/author/37349978300). Additionally, I was a Research Student at the National University of Singapore (NUS) from 2022 to 2023, where I worked with Prof. [Xinchao Wang](https://sites.google.com/site/sitexinchaowang/). Prior to that, I was a Research Intern at Microsoft Research Asia (MSRA) from 2020 to 2022, where I was mentored by Dr. [Cuiling Lan](https://www.microsoft.com/en-us/research/people/culan/) and Professor [Wenjun Zeng](https://www.eitech.edu.cn/?p=leader-Wenjun%20Zeng&tid=19&lang=en).
+Prior to my current role, I served as a Senior Researcher at Tencent, focusing on reinforcement learning and game AI, after earning my Ph.D. in 2023 from the University of Science and Technology of China (USTC) under the supervision of Professors [Zhibo Chen](https://faculty.ustc.edu.cn/chenzhibo/) and [Weiping Li](https://ieeexplore.ieee.org/author/37349978300). I also worked as a Research Student at the National University of Singapore (NUS) from 2022 to 2023, collaborating with Prof. [Xinchao Wang](https://sites.google.com/site/sitexinchaowang/). Earlier, I was a Research Intern at Microsoft Research Asia (MSRA) from 2020 to 2022, mentored by Dr. [Cuiling Lan](https://www.microsoft.com/en-us/research/people/culan/) and Professor [Wenjun Zeng](https://www.eitech.edu.cn/?p=leader-Wenjun%20Zeng&tid=19&lang=en).
 
-I like doing interesting projects. My recent project [Inpaint Anything](https://github.com/geekyutao/inpaint-anything) has received over 6.5k stars on GitHub. If you are interested in my work or want to collaborate, please feel free to contact me via email (yutao666@mail.ustc.edu.cn).
+I’m passionate about tackling exciting challenges through innovative projects. One of my recent works, [Inpaint Anything](https://github.com/geekyutao/inpaint-anything), has garnered over 6.5k stars on GitHub.
+
+If you’re interested in my research, collaboration opportunities, or internships in humanoid robotics, please don’t hesitate to reach out via email at [yutao666@mail.ustc.edu.cn](mailto:yutao666@mail.ustc.edu.cn).
 
 
 Selected Publications
