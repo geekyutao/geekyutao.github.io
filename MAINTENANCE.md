@@ -50,9 +50,16 @@ To add a new entry: **find the comment, copy one block below the comment, paste 
    ```
 7. The `[Project Lead]` tag style is in `style.css` under `.role-tag` — change colors there if you want a different look.
 
-### Add an experience / education entry
+### Add an experience entry
 
-Find the relevant section, copy a `<div class="exp">…</div>` block, edit the dates, role, organization, and the inline note.
+Experience is grouped by company (LinkedIn-style). Each company is one `<div class="job-group">` containing a `<div class="job-company">` header and one or more `<div class="job">` roles inside (newest role first).
+
+- **New role at an existing company** → add another `<div class="job">` inside that company's `.job-group`.
+- **New company** → copy a whole `<div class="job-group">…</div>` block.
+
+### Add an education entry
+
+Find the `Education` section, copy a `<div class="exp">…</div>` block, edit the dates, degree, school, and the inline note. (Education uses the simpler single-line `.exp` layout.)
 
 ### Add an award
 
